@@ -15,6 +15,7 @@ O .NET fornece bibliotecas e ferramentas especializadas para diversas finalidade
  - Performance/RPC: gRPC (Comunicação de baixa latência entre serviços).
  - Azure: Cloud
 
+![Ecossistema DotNet.png](https://github.com/jpaulomc/dotnet-fudamentals-internal/blob/master/Ecossistema%20DotNet.png)
 
 Como o .NET funciona por baixo dos panos?
 O .NET suporta linguagens de alto nível como C# e F#. Para que o computador entenda esse código, ele passa por dois processos de "tradução":
@@ -28,5 +29,6 @@ Baixe o SDK oficial em: dotnet.microsoft.com/download
 
 Após a instalação, abra o terminal (CMD ou PowerShell) e digite o comando para listar as versões instaladas:
 
-Bash
+Bash:
+
 dotnet --list-sdks
